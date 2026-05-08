@@ -1,6 +1,10 @@
 # Smart Download Organizer
 
-Smart Download Organizer is a simple Python automation tool that automatically organizes files in the Downloads folder into categorized folders such as Images, Documents, Videos, Code, Archives, and more.
+Smart Download Organizer is a Python automation tool that automatically organizes files in the Downloads folder into categorized folders such as Images, Documents, Videos, Code, Archives, and more.
+
+## GitHub Repository
+
+https://github.com/BommiPriyaVardhini/Smart-Download-Organizer
 
 ## Problem
 
@@ -12,16 +16,16 @@ This script automatically:
 
 - Scans the Downloads folder
 - Detects file types using extensions
-- Creates category folders if they don't exist
+- Creates category folders automatically
 - Renames files into a clean consistent format
 - Moves files into the correct folders
-- Prevents duplicate filename conflicts
+- Handles duplicate filenames safely
 
 ## Features
 
 - Automatic file organization
 - Smart filename cleaning
-- Duplicate file handling
+- Duplicate handling
 - Categorized folders
 - Lightweight and fast
 - Beginner-friendly Python project
@@ -29,19 +33,13 @@ This script automatically:
 ## Technologies Used
 
 - Python
-- os module
-- shutil module
-- datetime module
+- os
+- shutil
+- datetime
 
-## Folder Categories
+## How to Run
 
-The script organizes files into:
-
-- Images
-- Documents
-- Videos
-- Audio
-- Archives
-- Code
-- Others
-
+```bash
+git clone https://github.com/BommiPriyaVardhini/Smart-Download-Organizer.git
+cd Smart-Download-Organizer
+python organize_downloads_20260508.py
